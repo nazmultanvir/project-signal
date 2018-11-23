@@ -14,6 +14,21 @@ height: 100%;
    width: 47px;
 }
 
+.signalController{
+  background-color: beige;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+}
+.signalControllerButton{
+  width: 100%;
+  height: 33px;
+  font-size: 14px;
+  background-color: red;
+}
+
 .signalLeft{
   position: absolute;
   top: 366px;
@@ -39,6 +54,32 @@ height: 100%;
   top: 476px;
   left: 749px;
   transform: rotate(270deg);
+}
+
+
+.RoadNumber p{
+  color: white;
+  font-size: 60px;
+}
+.RoadNumberOne{
+  position: absolute;
+  top: -36px;
+  left: 724px;
+}
+.RoadNumberTwo{
+  top: 313px;
+  position: absolute;
+  right: 78px;
+}
+.RoadNumberThree{
+  position: absolute;
+  bottom: -58px;
+  left: 783px;
+}
+.RoadNumberFour{
+  position: absolute;
+  left: 270px;
+  top: 338px;
 }
 
 
